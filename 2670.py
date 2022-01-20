@@ -1,0 +1,1 @@
+print(*[2*min(a+c,b+2*a,b+2*c)for a,b,c in[[int(input())for _ in'aaa']]])
