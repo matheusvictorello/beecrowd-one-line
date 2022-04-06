@@ -1,0 +1,1 @@
+from functools import reduce as r;p=print;t=int;u=input;(lambda b:[p(b),r(lambda a,i:r(lambda c,d:d(*c),[lambda x,y,z:(x,y,x//y),lambda x,y,z:(x%y,p(f"{z} notas de {y},00"),0)],(a,i,0))[0],[100,50,20,10,5,2,1],b)])(t(u()))
